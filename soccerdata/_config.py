@@ -89,7 +89,7 @@ else:
 
 # League dict
 LEAGUE_DICT = {
-    "ENG-Premier League": {
+    "Premier League": {
         "ClubElo": "ENG_1",
         "MatchHistory": "E0",
         "FiveThirtyEight": "premier-league",
@@ -100,7 +100,7 @@ LEAGUE_DICT = {
         "season_start": "Aug",
         "season_end": "May",
     },
-    "ESP-La Liga": {
+    "La Liga": {
         "ClubElo": "ESP_1",
         "MatchHistory": "SP1",
         "FiveThirtyEight": "la-liga",
@@ -111,7 +111,7 @@ LEAGUE_DICT = {
         "season_start": "Aug",
         "season_end": "May",
     },
-    "ITA-Serie A": {
+    "Serie A": {
         "ClubElo": "ITA_1",
         "MatchHistory": "I1",
         "FiveThirtyEight": "serie-a",
@@ -122,7 +122,7 @@ LEAGUE_DICT = {
         "season_start": "Aug",
         "season_end": "May",
     },
-    "GER-Bundesliga": {
+    "Bundesliga": {
         "ClubElo": "GER_1",
         "MatchHistory": "D1",
         "FiveThirtyEight": "bundesliga",
@@ -133,7 +133,7 @@ LEAGUE_DICT = {
         "season_start": "Aug",
         "season_end": "May",
     },
-    "FRA-Ligue 1": {
+    "Ligue 1": {
         "ClubElo": "FRA_1",
         "MatchHistory": "F1",
         "FiveThirtyEight": "ligue-1",
@@ -144,14 +144,41 @@ LEAGUE_DICT = {
         "season_start": "Aug",
         "season_end": "May",
     },
-    "INT-World Cup": {
+    "FIFA World Cup": {
         "FBref": "FIFA World Cup",
         "WhoScored": "International - FIFA World Cup",
     },
-    "INT-Women's World Cup": {
-        "FBref": "FIFA Women's World Cup",
-        "WhoScored": "International - FIFA Women's World Cup",
+    "Eredivisie": {
+        "FBref": "Eredivisie",
     },
+    "Argentine Primera División": {
+        "FBref": "Argentine Primera División",
+    },
+    "Austrian Football Bundesliga": {
+        "FBref": "Austrian Football Bundesliga",
+    },
+    "Belgian Pro League": {
+        "FBref": "Belgian Pro League",
+    },
+    "Campeonato Brasileiro Série A": {
+        "FBref": "Campeonato Brasileiro Série A",
+    },
+    "Liga MX": {
+        "FBref": "Liga MX",
+    },
+    "Primeira Liga": {
+        "FBref": "Primeira Liga",
+    },
+    "Major League Soccer": {
+        "FBref": "Major League Soccer",
+    },
+    "UEFA Champions League": {
+        "FBref": "UEFA Champions League",
+    },
+    "Copa Libertadores de América": {
+        "FBref": "Copa Libertadores de América",
+    },
+
 }
 _f_custom_league_dict = CONFIG_DIR / "league_dict.json"
 if _f_custom_league_dict.is_file():
